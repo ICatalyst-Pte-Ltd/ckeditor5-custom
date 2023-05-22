@@ -1,0 +1,16 @@
+{
+  "name": "@ckeditor/ckeditor5-custom",
+  "version": "0.2.2",
+  "main": "./index.js",
+  "types": "./index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ICatalyst-Pte-Ltd/ckeditor5-custom.git"
+  },
+  "exports": {
+    ".": {
+      "import": "./index.mjs",
+      "require": "./index.js"
+    }
+  }
+}
